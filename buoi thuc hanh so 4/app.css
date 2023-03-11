@@ -1,0 +1,38 @@
+body{
+    box-sizing: border-box;
+}
+img{
+    width: :40px;
+    heigh: 40px;
+}
+.mia{
+    background-color: rgb(206, 179, 120);
+    width: 500px;
+    height: 100px;
+    margin: 0 0 0 20%;
+}
+.box-1{
+    display: flex;
+    justify-content: space-between;
+    width: 800;
+    height: 50;
+    margin: 10px 0;
+}
+.b1{
+    background-color: rgb(49, 190, 65);
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    border: 2px solid red(60,68,44);
+}
+.flexbox{
+    display: inline-block;
+    display: inline-block;
+    justify-content: flex-end;
+    border: 0px solid rgb(227, 55, 167);
+}
+
+
+
+

@@ -303,6 +303,15 @@ ol, ul {
 .footer {
     padding: 20px 0;
 }
+.testiomonials {
+	background-image: url(./testimonial-bg.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-color: rgba(15, 11, 14, 1);
+	min-height: 568px;
+	margin-top: -42px;
+}
 .footer {
     background-image: url(./pattern.PNG);
     background-position: center center;

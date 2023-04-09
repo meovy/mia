@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>milk</title>
-    <link href="style.css" rel="stylesheet">
+    <title>milkee-coffee</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="media.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
 </head>
+
 <body>
-     <!-- Preloader -->
-     <div class="preloader">
+    <!-- Preloader -->
+    <div class="preloader">
         <div class="preloader__row">
-          <div class="preloader__item"></div>
-          <div class="preloader__item"></div>
+            <div class="preloader__item"></div>
+            <div class="preloader__item"></div>
         </div>
     </div>
     <!--Header-->
@@ -21,7 +26,7 @@
             <!--Header Nav-->
             <div class="header__nav">
                 <a href="#" class="mobile-menu__btn">
-                    <img src="./mobile-menu.PNG" alt>
+                    <img src="./images/mobile-menu.svg" alt>
                 </a>
                 <ul class="header__menu">
                     <li class="header__item">
@@ -40,84 +45,124 @@
                         <a href="#tesimonials">Testimonials</a>
                     </li>
                 </ul>
-            </div>
-            <!--Mobile Menu-->
-            <div id="mobile-menu" class="mobile-menu">
-                <div class="mobile-menu__wrapper">
-                    <a class="mobile-menu__cross" href="#">
-                        <img src="./cross.PNG" alt>
-                    </a>
-                    <ul class="mobile-menu__list"> 
-                        <li class="mobile-menu__item">
-                            <a href="#about">About us</a>
+                <!--Mobile Menu-->
+                <div id="mobile-menu" class="mobile-menu">
+                    <div class="mobile-menu__wrapper">
+                        <a class="mobile-menu__cross" href="#">
+                            <img src="./images/cross (1).svg" alt>
+                        </a>
+                        <ul class="mobile-menu__list">
+                            <li class="mobile-menu__item">
+                                <a href="#about">About us</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a href="#we-offer">We offer</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a href="#why-us">Why us</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a href="#get-your-chance">Get your chance</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a href="#testimonials">Testimonials</a>
+                            </li>
+                        </ul>
+                        <ul class="mobile-menu__social">
+                            <li class="mobile-menu__social-item">
+                                <a href="#about">fb</a>
+                            </li>
+                            <li class="mobile-menu__social-item">
+                                <a href="#we-offer">tw</a>
+                            </li>
+                            <li class="mobile-menu__social-item">
+                                <a href="#why-us">in</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--Header Info-->
+                <div class="header__info">
+                    <ul class="header__social">
+                        <li class="header__social-item">
+                            <a href="#">fb</a>
                         </li>
-                        <li class="mobile-menu__item">
-                            <a href="#we-offer">We offer</a>
+                        <li class="header__social-item">
+                            <a href="#">Tw</a>
                         </li>
-                        <li class="mobile-menu__item">
-                            <a href="#why-us">Why us</a>
-                        </li>
-                        <li class="mobile-menu__item">
-                            <a href="#get-your-chance">Get your chance</a>
-                        </li>
-                        <li class="mobile-menu__item">
-                            <a href="#testimonials">Testimonials</a>
+                        <li class="header__social-item">
+                            <a href="#">In</a>
                         </li>
                     </ul>
-                    <ul class="mobile-menu__social">
-                        <li class="mobile-menu__social-item">
-                            <a href="#about">fb</a>
-                        </li>
-                        <li class="mobile-menu__social-item">
-                            <a href="#we-offer">tw</a>
-                        </li>
-                        <li class="mobile-menu__social-item">
-                            <a href="#why-us">in</a>
-                        </li>
-                    </ul>
+                    <a class="header__phone" href="tel:+17426584122">+17426584122</a>
+                    <button class="header__button"> Order now</button>
                 </div>
             </div>
-            <!--Header Info-->
-            <div class="header__info">
-                <ul class="header__social">
-                    <li class="header__social-item">
-                        <a href="#">fb</a>
-                    </li>
-                    <li class="header__social-item">
-                        <a href="#">Tw</a>
-                    </li>
-                    <li class="header__social-item">
-                        <a href="#">In</a>
-                    </li>
-                </ul>
-                <a class="header__phone" href="tel:+17426584122">+17426584122</a>
-                <button class="header__button"> Order now</button>
-            </div>
+
             <!--Main Info-->
             <div class="header__main-info">
-                <img class="header__logo" src="./logo.PNG" alt>
+                <img class="header__logo" src="./images/logo.svg" alt>
                 <h1 class="header__desc">Duis Aute Irure Dolor In Reprehenderit In Voluptate</h1>
             </div>
-            <span class="header__scoll">Scoll down</span>
+            <span class="header__scroll">Scoll down</span>
         </div>
     </header>
+   
+    <!-- About -->
+    <section id="about" class="about">
+        <!-- Container -->
+        <div class="about-container">
+            <div class="about__wrapper">
+                <a class="about__video" target="_blank" href="https://www.youtube.com/watch?v=Z7e8tmcSrxg">
+                    <img class="about__img" src="./images/video-img.jpg" alt="">
+                </a>
+                <div class="about__info">
+                    <h2 class="about__title">
+                        Choose Fresh beans - taste a great coffee
+                    </h2>
+                    <p class="about__text">
+                        Sed ut perspiciatis, unde omnis iste natus error 
+                        sit voluptatem accusantium doloremque laudantium, totam rem aperiam 
+                        eaque ipsa, quae ab illo inventore veritatis et quasi architecto beata.
+                    </p>
+                    <div class="about__additional-wrapper">
+                        <div class="about__addition">
+                            <div class="about__addition-part">
+                                <div class="about__addition-title">Download</div>
+                                <a class="about__addition-desc" href="./images/Vector.svg">Pricelist</a>
+                            </div>
+                            <div class="about__addition-part">
+                                <div class="about__addition-title">call us</div>
+                                <a class="about__addition-desc" href="tel:+17426584122">+1 742 65 84 122</a>
+                                <!-- <div ></div> -->
+                            </div>
+                        </div>
+                        <a class="about__btn" href="#">Order now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img class="about__coffee-decor" src="./images/coffee-decor.svg" alt="">
+    </section>
+
+   
     <!--Action-->
     <section id="get-your-chance" class="action">
         <div class="action-container">
             <div class="action__wrapper">
                 <h2 class="action__title">Get your chance to have an amazing morning</h2>
                 <p class="action__desc">
-                    "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem unde omnis iste natus error sit voluptatem"
+                    "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem unde omnis iste natus error sit
+                    voluptatem"
                 </p>
-                <div class="action__counter"> 
+                <div class="action__counter">
                     <div class="action__days">
                         <span class="action__date" id="d">-789</span>
                         <span class="action__date-1">day</span>
                     </div>
-                    <div class="action__hour">
+                    <div class="action__hours">
                         <span class="action__date" id="h">-2</span>
                         <span class="action__date-1">hour</span>
-                        ::after
                     </div>
                     <div class="action__minutes">
                         <span class="action__date action__date-modify" id="m">-6</span>
@@ -140,35 +185,46 @@
             </div>
 
         </div>
-        <img class="action__coffee-img" src="">
+        <img class="action__coffee-img" src="./images/action-coffee.png" alt="">
+        <img class="action__coffee-decor" src="./images/coffee-decor-2.svg" alt="">
     </section>
     <!--Testiomonials-->
     <section id="testimonials" class="testiomonials">
-        <ul class="testiomonials__slider">
-            <li class="testimonials__item">
-                <h2 class="testiomonials__title">They tasted our passion</h2>
-                <p class="testiomonials__text">Pariatur voluptate occaecat nostrud est exercitation. Culpa culpa laboris excepteur ad. Duis officia ullamco sunt nisi velit culpa excepteur amet. Incididunt sunt velit fugiat exercitation sit incididunt anim occaecat exercitation ut quis.</p>
-                <p class="testiomonials__name">Kristin Watson</p>
-            </li>
-            <li class="testimonials__item">
-                <h2 class="testiomonials__title">They tasted our passion</h2>
-                <p class="testiomonials__text">Pariatur voluptate occaecat nostrud est exercitation. Culpa culpa laboris excepteur ad. Duis officia ullamco sunt nisi velit culpa excepteur amet. Incididunt sunt velit fugiat exercitation sit incididunt anim occaecat exercitation ut quis.</p>
-                <p class="testiomonials__name">Kristin Watson</p>
-            </li>
-            <li class="testimonials__item">
-                <h2 class="testiomonials__title">They tasted our passion</h2>
-                <p class="testiomonials__text">Pariatur voluptate occaecat nostrud est exercitation. Culpa culpa laboris excepteur ad. Duis officia ullamco sunt nisi velit culpa excepteur amet. Incididunt sunt velit fugiat exercitation sit incididunt anim occaecat exercitation ut quis.</p>
-                <p class="testiomonials__name">Kristin Watson</p>
-            </li>
-        </ul>
+        <div class="swiper">
+            <ul class="testiomonials__slider swiper-wrapper">
+                <li class="testimonials__item swiper-slide">
+                    <h2 class="testiomonials__title">They tasted our passion</h2>
+                    <p class="testiomonials__text">Pariatur voluptate occaecat nostrud est exercitation. Culpa culpa
+                        laboris excepteur ad. Duis officia ullamco sunt nisi velit culpa excepteur amet. Incididunt sunt
+                        velit fugiat exercitation sit incididunt anim occaecat exercitation ut quis.</p>
+                    <p class="testiomonials__name">Kristin Watson</p>
+                </li>
+                <li class="testimonials__item swiper-slide">
+                    <h2 class="testiomonials__title">They tasted our passion</h2>
+                    <p class="testiomonials__text">Pariatur voluptate occaecat nostrud est exercitation. Culpa culpa
+                        laboris excepteur ad. Duis officia ullamco sunt nisi velit culpa excepteur amet. Incididunt sunt
+                        velit fugiat exercitation sit incididunt anim occaecat exercitation ut quis.</p>
+                    <p class="testiomonials__name">Kristin Watson</p>
+                </li>
+                <li class="testimonials__item swiper-slide">
+                    <h2 class="testiomonials__title">They tasted our passion</h2>
+                    <p class="testiomonials__text">Pariatur voluptate occaecat nostrud est exercitation. Culpa culpa
+                        laboris excepteur ad. Duis officia ullamco sunt nisi velit culpa excepteur amet. Incididunt sunt
+                        velit fugiat exercitation sit incididunt anim occaecat exercitation ut quis.</p>
+                    <p class="testiomonials__name">Kristin Watson</p>
+                </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+        </div>
+
     </section>
     <!--Footer-->
     <footer class="footer">
         <div class="footer-container">
             <div class="footer__nav">
                 <!--About us-->
-                <div class="footer__about us">
-                    <img class="footer__logo" src="./footer__logo.PNG" alt>
+                <div class="footer__about-us">
+                    <img class="footer__logo" src="./images/logo.svg" alt>
                     <div class="footer__info">
                         <h3 class="footer__about-heading">About us</h3>
                         <p class="footer__about-text">
@@ -201,7 +257,78 @@
         <a class="footer__up" href="#"></a>
     </footer>
 
+    <div class="copyright">
+        <div class="footer-container">
+            <p class="copyright__text">© All rights reserved. Mikkee 2020.</p>
+        </div>
+    </div>
 
-    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 </body>
+
 </html>
+
+<script>
+    const swiper = new Swiper('#testimonials .swiper', {
+        loop: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '#testimonials .swiper-pagination',
+            clickable: true
+        },
+    });
+
+    // Products slider
+
+    const productsSlider = new Swiper(".products__slider", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        freeMode: true,
+        pagination: {
+            el: ".products__slider-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+        640: {
+          slidesPerView: 4,
+          spaceBetween: 30,
+        },
+      }
+    });
+
+    // Mobile menu
+    document.querySelector('.mobile-menu__btn').addEventListener('click', function() {
+        document.querySelector('.mobile-menu').classList.add('active');
+    })
+    document.querySelector('.mobile-menu__cross').addEventListener('click', function() {
+        document.querySelector('.mobile-menu').classList.remove('active');
+    })
+
+    //  TIMER 
+    let date = new Date('Sep 1 2023 00:00:00');
+
+    function counts() {
+        let now = new Date();
+        gap = date - now;
+
+        let days = Math.floor(gap / 1000 / 60 / 60 / 24);
+        let hours = Math.floor(gap / 1000 / 60 / 60) % 24;
+        let minutes = Math.floor(gap / 1000 / 60) % 60;
+        let seconds = Math.floor(gap / 1000) % 60;
+
+        document.getElementById('d').innerText = days;
+        document.getElementById('h').innerText = hours;
+        document.getElementById('m').innerText = minutes;
+        document.getElementById('s').innerText = seconds;
+    }
+    counts();
+
+    setInterval(counts, 1000);
+</script>
+</html>
+
+

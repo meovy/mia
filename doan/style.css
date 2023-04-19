@@ -1280,6 +1280,7 @@ h6 {
 
 .why_choose {
     display: flex;
+    flex-direction: column;
 }
 
 .why_choose .why {
@@ -1339,75 +1340,40 @@ h6 {
 
 /* HEADINGS */
 @media (min-width: 1400px) {
-    .why_choose {
-        margin-left: 5%;
-        display: flex;
-        flex-direction: row;
-        justify-content: left;
-    }
-
-    .product {
-        margin-left: 15%;
-        flex-direction: column;
-    }
-
-    #sec {
-        margin-bottom: 150px;
-        position: relative;
-        box-sizing: inherit;
-        font: inherit;
-        padding: 0, 15px;
-    }
+  .why_choose {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  }
+  .product {
+    margin-left: 15%;
+    flex-direction: column;
+  }
+  #sec {
+    margin-bottom: 150px;
+    position: relative;
+    box-sizing: inherit;
+    font: inherit;
+    padding: 0, 15px;
+  }
 }
-
+@media (min-width: 992px) and (max-width: 1400px) {
+  .product_info {
+    margin-left: 25%;
+  }
+}
 @media (min-width: 768px) and (max-width: 991px) {
-
-    .product_info .product_cnt {
-        max-width: 900px;
-    }
+  .product_info {
+    margin-left: 30px;
+  }
+  .product_info .product_cnt {
+    max-width: 900px;
+  }
 }
-
 @media (max-width: 576px) {
-    .why img {
-        max-width: 90%;
-        max-height: 90%;
-    }
-}
-
-/* HEADINGS */
-@media (min-width: 1400px) {
-    .why_choose {
-        margin-left: 5%;
-        display: flex;
-        flex-direction: row;
-        justify-content: left;
-    }
-
-    .product {
-        margin-left: 15%;
-        flex-direction: column;
-    }
-
-    #sec {
-        margin-bottom: 150px;
-        position: relative;
-        box-sizing: inherit;
-        font: inherit;
-        padding: 0, 15px;
-    }
-}
-
-
-@media (min-width: 768px) and (max-width: 991px) {
-
-    .product_info .product_cnt {
-        max-width: 900px;
-    }
-}
-
-@media (max-width: 576px) {
-    .why img {
-        max-width: 90%;
-        max-height: 90%;
-    }
+  .why img {
+    max-width: 90%;
+    max-height: 90%;
+  }
 }
